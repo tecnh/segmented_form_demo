@@ -7,7 +7,7 @@ class Person < ActiveRecord::Base
   validates_presence_of     :status
   validates_numericality_of :age, :greater_than => 0
   validates_presence_of     :age  
-  validates_length_of       :city_of_birth, :within => 3..40
-  validates_presence_of     :city_of_birth
+  validates_length_of       :city_of_birth, :within => 3..40, :client_side => false
+  validates_presence_of     :city_of_birth, :client_side => false
 
 end
