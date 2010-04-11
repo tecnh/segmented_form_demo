@@ -1,29 +1,25 @@
-= render :partial => "p1"
-= render :partial => "p2"
-= render :partial => "p3"
+- @sub_forms = ["p1", "p2", "p3"]
+
+= render :partial => "master"
+- @sub_forms.each_with_index do |sf, idx|
+	= render :partial => sf, :locals => {:current_form => sf, :next_form => @sub_forms[idx+1].nil? ? 'last' : @sub_forms[idx+1]}
+	- if idx != 0
+		= javascript_tag "$('##{sf}').hide();"
+	=javascript_tag"$('.master_form').hide();" 
+	
+	
 :javascript
 	function form2form(formA, formB) {$(':input[name]', formA).each(function() { $('[name=' + $(this).attr('name') +']', formB).val($(this).val())})};
-	function copy_form(src, next) { 
-		var form = v2.Form.get(src);
-		if (form.test("validate")) {
-			form2form( $("#" + src), $('#foo'));
-			$("#" + src).hide();
-			next.show();
-		 };
+	function copy_form(src, next) {
+		var form = v2.Form.get( src.attr('id') );
+		if ( form.test("validate") ) {
+		 	form2form( src, $('#master_form') );
+			if ( next == "last" ) {
+				$('#master_form').submit();
+			} else {
+				src.hide();
+				next.show();
+			}; 
+		};
+		return false;
 	};
-	
-%div#results
-	%h1 Output here
-	%div#output
-		%p
-		:javascript
-			$("#results h1").text('jQuery active');
-		- semantic_form_for(@person, :html => {:id => "foo"}) do |f|
-			= f.text_field :first_name, :label => 'First name'
-			= f.text_field :last_name, :label => 'Last name'
-			= f.text_field :age, :label => 'Age'
-			= f.text_field :dob, :label => 'Dob'
-			= f.text_field :status, :label => 'Status'
-			= f.text_field :city_of_birth, :label => 'City of birth'
-			= f.text_field :comments, :label => 'Comments'
-			= f.submit "Submit"

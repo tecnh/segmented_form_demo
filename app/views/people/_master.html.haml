@@ -1,0 +1,10 @@
+%div.master_form
+	- semantic_form_for(@person, :html => {:id => "master_form"}) do |f|
+		= f.text_field :first_name, :label => 'First name'
+		= f.text_field :last_name, :label => 'Last name'
+		= f.text_field :age, :label => 'Age'
+		= f.text_field :dob, :label => 'Dob'
+		= f.text_field :status, :label => 'Status'
+		= f.text_field :city_of_birth, :label => 'City of birth'
+		= f.text_field :comments, :label => 'Comments'
+		= f.submit "Submit"

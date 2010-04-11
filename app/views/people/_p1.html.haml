@@ -1,11 +1,11 @@
 = javascript_for_validatious
-- form_name = 'p1'
-- semantic_form_for @person, :html => {:class => 'validate', :id => form_name } do |f|
+- semantic_form_for @person, :html => {:class => 'validate', :id => current_form } do |f|
 	= f.error_messages
 	%p
 	- f.inputs do
 		= f.input :first_name, :label => 'First name'
 		= f.input :last_name, :label => 'Last name'
-		= f.submit "Submit", :style => "display:none;"
+		-# This is the auto-generate bit
 		%br
-		= link_to_function "submit - javascript", "copy_form( '#{form_name}', $('#p2'))"
+		= f.submit "Submit", :style => "display:none;"
+		= link_to_function "submit - javascript", "copy_form( $('##{current_form}'), " + (next_form == 'last' ? "'last'" : "$('##{next_form}')") + " )"
