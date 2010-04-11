@@ -6,11 +6,10 @@
 		%meta{ :"http-equiv" => "Content-Type", :content => "text/html; charset=utf-8" }
 		%link{ :rel => "shortcut icon", :href => "/favicon.ico" }
 		= stylesheet_link_tag "application", :media => "screen"
-		= javascript_include_tag :defaults
+		= javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'
 		= stylesheet_link_tag 'formtastic.css', 'formtastic_changes', :cache => :formtastic
 		= javascript_include_tag 'XMLHttpRequest' ,'v2.standalone.full.min', 'v2.config', 'v2.rails', :cache => 'v2'
 		= javascript_tag "v2.Field.prototype.positionErrorsAbove = false; v2.Fieldset.prototype.positionErrorsAbove = false; v2.Fieldset.prototype.messagesClass = 'errors'; v2.Fieldset.prototype.failureClass = 'error'; v2.Fieldset.prototype.successClass = ''; v2.Field.prototype.messagesClass = 'errors'; v2.Field.prototype.failureClass = 'error'; v2.Field.prototype.successClass = ''; v2.Field.prototype.displayErrors = 1; v2.Form.actionButtonClass = 'commit'"
-		= javascript_for_validatious
 		
 	%body
 		#wrapper

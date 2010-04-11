@@ -809,3 +809,1233 @@ Rendering template within layouts/application
 Rendering people/new
 Rendered people/_form (128.0ms)
 Completed in 142ms (View: 136, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:56:58) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (24.8ms)
+Completed in 37ms (View: 32, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:57:26) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (108.2ms)
+Completed in 123ms (View: 116, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:57:30) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (25.2ms)
+Completed in 39ms (View: 32, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:57:41) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (95.0ms)
+Completed in 108ms (View: 102, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:57:54) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (24.4ms)
+Completed in 38ms (View: 32, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:58:09) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (24.1ms)
+Completed in 112ms (View: 106, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:59:10) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (80.3ms)
+Completed in 94ms (View: 88, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:59:14) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (24.2ms)
+Completed in 37ms (View: 31, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:59:25) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (31.4ms)
+Completed in 49ms (View: 40, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:59:37) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (59.0ms)
+Completed in 86ms (View: 67, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:59:42) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (28.4ms)
+Completed in 49ms (View: 38, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:59:46) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (35.7ms)
+Completed in 50ms (View: 44, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:59:59) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (23.8ms)
+Completed in 37ms (View: 31, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:00:09) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (25.4ms)
+Completed in 38ms (View: 33, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:00:19) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (25.6ms)
+Completed in 122ms (View: 34, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:00:27) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (28.5ms)
+Completed in 61ms (View: 37, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:00:36) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (28.4ms)
+Completed in 128ms (View: 119, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:00:44) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (64.4ms)
+Completed in 83ms (View: 74, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:00:48) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (103.8ms)
+Completed in 120ms (View: 113, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:01:50) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (54.3ms)
+Completed in 69ms (View: 63, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:01:53) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (115.4ms)
+Completed in 129ms (View: 121, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:02:56) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (61.4ms)
+Completed in 79ms (View: 69, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:10:14) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (74.0ms)
+Completed in 170ms (View: 160, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:11:28) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (54.4ms)
+Completed in 80ms (View: 66, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:13:27) [GET]
+Rendering template within layouts/application
+Rendering people/new
+
+ActionView::TemplateError (undefined method `input' for #<ActionView::Helpers::FormBuilder:0x1031ac620>) on line #21 of app/views/people/_form.html.haml:
+18: 			:javascript
+19: 				$("#results h1").text('jQuery active');
+20: 			- form_for(person) do |f|
+21: 				= f.input :first_name, :label => 'First name'
+22: 				= f.input :last_name, :label => 'Last name'
+23: 				= f.input :age, :label => 'Age'
+24: 				= f.input :dob, :label => 'Dob'
+
+    app/views/people/_form.html.haml:21:in `_run_haml_app47views47people47_form46html46haml_locals_form_object_person'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:203:in `call'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:203:in `form_for'
+    haml (2.2.22) lib/haml/helpers.rb:573:in `call'
+    haml (2.2.22) lib/haml/helpers.rb:573:in `haml_bind_proc'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:209:in `form_for'
+    app/views/people/_form.html.haml:20:in `_run_haml_app47views47people47_form46html46haml_locals_form_object_person'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:203:in `call'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:203:in `form_for'
+    haml (2.2.22) lib/haml/helpers.rb:573:in `call'
+    haml (2.2.22) lib/haml/helpers.rb:573:in `haml_bind_proc'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:209:in `form_for'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1703:in `semantic_form_for'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1681:in `with_custom_field_error_proc'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1702:in `semantic_form_for'
+    app/views/people/_form.html.haml:1:in `_run_haml_app47views47people47_form46html46haml_locals_form_object_person'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/new.html.haml:2:in `_run_haml_app47views47people47new46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/people_controller.rb:48:in `new'
+    haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (58.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:16:16) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (67.4ms)
+Completed in 194ms (View: 187, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:19:18) [GET]
+Rendering template within layouts/application
+Rendering people/new
+ERROR: compiling _run_haml_app47views47people47_form46html46haml_locals_form_object_person RAISED compile error
+/Volumes/Code/git/mp/app/views/people/_form.html.haml:2: syntax error, unexpected ':', expecting kEND
+ semantic_fieldset_tag "page1" :html => {:class => 'validate'} do |f|;
+                                ^
+/Volumes/Code/git/mp/app/views/people/_form.html.haml:2: syntax error, unexpected kDO, expecting kEND
+ semantic_fieldset_tag "page1" :html => {:class => 'validate'} do |f|;
+                                                                 ^
+/Volumes/Code/git/mp/app/views/people/_form.html.haml:31: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47people47_form46html46haml_locals_form_object_person(local_assigns)
+            old_output_buffer = output_buffer;person = local_assigns[:person];object = local_assigns[:object];form = local_assigns[:form];;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :format=>:xhtml, :preserve=>["textarea", "pre", "code"], :encoding=>nil, :ugly=>false, :escape_html=>false});_erbout = _hamlout.buffer;__in_erb_template = true;; form_tag some_url do;
+ semantic_fieldset_tag "page1" :html => {:class => 'validate'} do |f|;
+_hamlout.push_text("#{haml_temp =  f.error_messages
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<p></p>\n", 0, false);
+ f.inputs do;
+_hamlout.push_text("#{haml_temp =  f.input :first_name, :label => 'First name'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  f.input :last_name, :label => 'Last name'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  f.input :age, :label => 'Age'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  f.input :dob, :label => 'Dob'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  f.input :status, :label => 'Status'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  f.input :city_of_birth, :label => 'City of birth'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  f.input :comments, :label => 'Comments'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  f.submit "Submit"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);
+end;end;end;
+
+
+
+
+
+_hamlout.push_text("<div id='results'>\n  <h1>Output here</h1>\n  <div id='output'>\n    <p></p>\n    <script type='text/javascript'>\n      //<![CDATA[\n        $(\"#results h1\").text('jQuery active');\n      //]]>\n    </script>\n", 2, false); form_for(person) do |f|;
+_hamlout.push_text("    #{haml_temp =  f.text_field :first_name, :label => 'First name'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp =  f.text_field :last_name, :label => 'Last name'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp =  f.text_field :age, :label => 'Age'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp =  f.text_field :dob, :label => 'Dob'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp =  f.text_field :status, :label => 'Status'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp =  f.text_field :city_of_birth, :label => 'City of birth'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp =  f.text_field :comments, :label => 'Comments'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n    #{haml_temp =  f.submit "Submit"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);end;_hamlout.push_text("  </div>\n</div>\n", -2, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Volumes/Code/git/mp/app/views/people/_form.html.haml:31:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:20:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:19:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/partials.rb:184:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:267:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.22/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.22/lib/haml/helpers.rb:96:in `non_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.22/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Volumes/Code/git/mp/app/views/people/new.html.haml:2:in `_run_haml_app47views47people47new46html46haml'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:306:in `with_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:30:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.22/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.22/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:951:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `custom'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Volumes/Code/git/mp/app/controllers/people_controller.rb:48:in `new'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.22/lib/sass/plugin/rails.rb:20:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Volumes/Code/git/mp/app/views/people/_form.html.haml:2: syntax error, unexpected ':', expecting kEND
+ semantic_fieldset_tag "page1" :html => {:class => 'validate'} do |f|;
+                                ^
+/Volumes/Code/git/mp/app/views/people/_form.html.haml:2: syntax error, unexpected kDO, expecting kEND
+ semantic_fieldset_tag "page1" :html => {:class => 'validate'} do |f|;
+                                                                 ^
+/Volumes/Code/git/mp/app/views/people/_form.html.haml:31: syntax error, unexpected kENSURE, expecting $end) on line #2 of app/views/people/_form.html.haml:
+1: - form_tag some_url do
+2: 	- semantic_fieldset_tag "page1" :html => {:class => 'validate'} do |f|
+3: 		= f.error_messages
+4: 		%p
+5: 		- f.inputs do
+
+    app/views/people/_form.html.haml:31:in `compile!'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/new.html.haml:2:in `_run_haml_app47views47people47new46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/people_controller.rb:48:in `new'
+    haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (65.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:19:25) [GET]
+Rendering template within layouts/application
+Rendering people/new
+
+ActionView::TemplateError (undefined local variable or method `some_url' for #<ActionView::Base:0x1030f48b8>) on line #1 of app/views/people/_form.html.haml:
+1: - form_tag some_url do
+2: 	- semantic_fieldset_tag "page1", :html => {:class => 'validate'} do |f|
+3: 		= f.error_messages
+4: 		%p
+
+    app/views/people/_form.html.haml:1:in `_run_haml_app47views47people47_form46html46haml_locals_form_object_person'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/new.html.haml:2:in `_run_haml_app47views47people47new46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/people_controller.rb:48:in `new'
+    haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (55.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:19:32) [GET]
+Rendering template within layouts/application
+Rendering people/new
+
+ActionView::TemplateError (undefined method `semantic_fieldset_tag' for #<ActionView::Base:0x10317d780>) on line #2 of app/views/people/_form.html.haml:
+1: - form_tag "#" do
+2: 	- semantic_fieldset_tag "page1", :html => {:class => 'validate'} do |f|
+3: 		= f.error_messages
+4: 		%p
+5: 		- f.inputs do
+
+    app/views/people/_form.html.haml:2:in `_run_haml_app47views47people47_form46html46haml_locals_form_object_person'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:180:in `call'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:180:in `form_tag'
+    haml (2.2.22) lib/haml/helpers.rb:573:in `call'
+    haml (2.2.22) lib/haml/helpers.rb:573:in `haml_bind_proc'
+    haml (2.2.22) lib/haml/helpers.rb:349:in `call'
+    haml (2.2.22) lib/haml/helpers.rb:349:in `capture_haml'
+    haml (2.2.22) lib/haml/helpers.rb:551:in `with_haml_buffer'
+    haml (2.2.22) lib/haml/helpers.rb:345:in `capture_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:88:in `capture'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:186:in `form_tag'
+    app/views/people/_form.html.haml:1:in `_run_haml_app47views47people47_form46html46haml_locals_form_object_person'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/new.html.haml:2:in `_run_haml_app47views47people47new46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/people_controller.rb:48:in `new'
+    haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (61.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:37:16) [GET]
+Rendering template within layouts/application
+Rendering people/new
+
+ActionView::TemplateError (undefined method `semantic_form' for #<ActionView::Base:0x103256aa8>) on line #1 of app/views/people/_form.html.haml:
+1: - semantic_form :html => {:class => 'validate'} do |f|
+2: 	= f.error_messages
+3: 	%p
+4: 	- f.inputs do
+
+    app/views/people/_form.html.haml:1:in `_run_haml_app47views47people47_form46html46haml_locals_form_object_person'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/new.html.haml:2:in `_run_haml_app47views47people47new46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/people_controller.rb:48:in `new'
+    haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (157.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:37:19) [GET]
+Rendering template within layouts/application
+Rendering people/new
+
+ActionView::TemplateError (undefined method `semantic_form_tag' for #<ActionView::Base:0x1033a2d08>) on line #1 of app/views/people/_form.html.haml:
+1: - semantic_form_tag :html => {:class => 'validate'} do |f|
+2: 	= f.error_messages
+3: 	%p
+4: 	- f.inputs do
+
+    app/views/people/_form.html.haml:1:in `_run_haml_app47views47people47_form46html46haml_locals_form_object_person'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/new.html.haml:2:in `_run_haml_app47views47people47new46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/people_controller.rb:48:in `new'
+    haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (131.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:39:37) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (69.5ms)
+Completed in 84ms (View: 77, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:39:40) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI=", "page1"=>{"dob"=>"", "comments"=>"", "city_of_birth"=>"", "last_name"=>"", "status"=>"", "age"=>"", "first_name"=>""}}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (30.1ms)
+Completed in 44ms (View: 34, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:39:44) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI=", "page1"=>{"dob"=>"", "comments"=>"", "city_of_birth"=>"", "last_name"=>"", "status"=>"", "age"=>"", "first_name"=>""}}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (117.3ms)
+Completed in 129ms (View: 122, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:41:32) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI=", "page1"=>{"dob"=>"", "comments"=>"", "city_of_birth"=>"", "last_name"=>"", "status"=>"", "age"=>"", "first_name"=>""}}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (51.2ms)
+Completed in 65ms (View: 59, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:42:34) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI=", "page1"=>{"dob"=>"", "comments"=>"", "city_of_birth"=>"", "last_name"=>"", "status"=>"", "age"=>"", "first_name"=>""}}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (92.6ms)
+Completed in 191ms (View: 183, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:42:50) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI=", "page1"=>{"dob"=>"", "comments"=>"", "city_of_birth"=>"", "last_name"=>"", "status"=>"", "age"=>"", "first_name"=>""}}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (32.4ms)
+Completed in 42ms (View: 36, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#create (for 127.0.0.1 at 2010-04-11 11:43:13) [POST]
+  Parameters: {"person"=>{"comments"=>"aaa"}, "commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI="}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (199.7ms)
+Completed in 217ms (View: 205, DB: 0) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#create (for 127.0.0.1 at 2010-04-11 11:43:23) [POST]
+  Parameters: {"person"=>{"city_of_birth"=>"100", "dob(1i)"=>"2010", "dob(2i)"=>"4", "dob(3i)"=>"11", "dob(4i)"=>"11", "dob(5i)"=>"42", "status"=>"alive", "age"=>"1"}, "commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI="}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (57.8ms)
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:43:34) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI=", "page1"=>{"dob"=>"", "comments"=>"", "city_of_birth"=>"", "last_name"=>"", "status"=>"", "age"=>"", "first_name"=>""}}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (358.2ms)
+Completed in 374ms (View: 366, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:43:47) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI=", "page1"=>{"dob"=>"", "comments"=>"", "city_of_birth"=>"", "last_name"=>"", "status"=>"", "age"=>"", "first_name"=>""}}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (36.2ms)
+Completed in 53ms (View: 44, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:44:05) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI=", "page1"=>{"dob"=>"", "comments"=>"", "city_of_birth"=>"", "last_name"=>"", "status"=>"", "age"=>"", "first_name"=>""}}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (39.8ms)
+Completed in 58ms (View: 47, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:44:15) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI=", "page1"=>{"dob"=>"", "comments"=>"", "city_of_birth"=>"", "last_name"=>"", "status"=>"", "age"=>"", "first_name"=>""}}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (33.8ms)
+Completed in 47ms (View: 40, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 11:44:29) [GET]
+  [4;35;1mPerson Load (0.7ms)[0m   [0mSELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering people/index
+Rendered people/_person (3.4ms)
+Completed in 13ms (View: 6, DB: 1) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:44:32) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (31.2ms)
+Completed in 41ms (View: 35, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:49:49) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (85.5ms)
+Completed in 179ms (View: 173, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:50:54) [GET]
+Rendering template within layouts/application
+Rendering people/new
+
+ActionView::TemplateError (Inconsistent indentation: "  \t" was used for indentation, but the rest of the document was indented using 1 tab.) on line #7 of app/views/people/_form.html.haml:
+4: 		};
+5: 
+6: 	function p_2() {
+7:   	v2.Validator.add({acceptEmpty: false,fn: function(field, value, params){if (v2.present(params[1]) && v2.bool(params[1]) && v2.empty(value)) {return true;};value = +value;return value > params[0];},message: "must be greater than ${count}",name: "numericality-greater-than",params: ["count","allow_nil"]});
+8: 		};
+9: 
+10: 	function p_3() {
+
+    app/views/people/_form.html.haml:7
+    haml (2.2.22) lib/haml/precompiler.rb:169:in `tabs'
+    haml (2.2.22) lib/haml/precompiler.rb:151:in `instance_eval'
+    haml (2.2.22) lib/haml/precompiler.rb:151:in `tabs'
+    haml (2.2.22) lib/haml/precompiler.rb:937:in `next_line'
+    haml (2.2.22) lib/haml/precompiler.rb:186:in `precompile'
+    haml (2.2.22) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.22) lib/haml/template/plugin.rb:27:in `new'
+    haml (2.2.22) lib/haml/template/plugin.rb:27:in `compile'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/new.html.haml:2:in `_run_haml_app47views47people47new46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/people_controller.rb:48:in `new'
+    haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (56.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:51:03) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (75.7ms)
+Completed in 204ms (View: 83, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:51:12) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (69.3ms)
+Completed in 80ms (View: 73, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:52:04) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (158.2ms)
+Completed in 171ms (View: 165, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#create (for 127.0.0.1 at 2010-04-11 11:52:19) [POST]
+  Parameters: {"person"=>{"last_name"=>"", "first_name"=>""}, "commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI="}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (197.3ms)
+Completed in 216ms (View: 201, DB: 0) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:55:05) [GET]
+Rendering template within layouts/application
+Rendering people/new
+
+ActionView::TemplateError (`@1' is not allowed as an instance variable name) on line #1 of app/views/people/_form.html.haml:
+1: = render :partial => "1"
+2: = render :partial => "2"
+3: = render :partial => "3"
+4: 
+
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/_form.html.haml:1:in `_run_haml_app47views47people47_form46html46haml_locals_form_object_person'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/new.html.haml:2:in `_run_haml_app47views47people47new46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/people_controller.rb:48:in `new'
+    haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (139.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:55:30) [GET]
+Rendering template within layouts/application
+Rendering people/new
+
+ActionView::TemplateError (undefined local variable or method `person' for #<ActionView::Base:0x10359f688>) on line #2 of app/views/people/_p1.html.haml:
+1: = javascript_for_validatious
+2: - semantic_form_for person, :html => {:class => 'validate'} do |f|
+3: 	= f.error_messages
+4: 	%p
+5: 	- f.inputs do
+
+    app/views/people/_p1.html.haml:2:in `_run_haml_app47views47people47_p146html46haml_locals_object_p1'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/_form.html.haml:1:in `_run_haml_app47views47people47_form46html46haml_locals_form_object_person'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/new.html.haml:2:in `_run_haml_app47views47people47new46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/people_controller.rb:48:in `new'
+    haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (155.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:55:54) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (60.3ms)
+Rendered people/_p2 (17.1ms)
+Rendered people/_p3 (3.5ms)
+Rendered people/_form (105.2ms)
+Completed in 126ms (View: 118, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:57:58) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (27.8ms)
+Rendered people/_p2 (15.6ms)
+Rendered people/_p3 (2.5ms)
+Rendered people/_form (137.6ms)
+Completed in 156ms (View: 146, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:58:39) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (29.5ms)
+Rendered people/_p2 (15.6ms)
+Rendered people/_p3 (2.3ms)
+Rendered people/_form (54.8ms)
+Completed in 66ms (View: 59, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:59:15) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (30.4ms)
+Rendered people/_p2 (15.4ms)
+Rendered people/_p3 (2.4ms)
+Rendered people/_form (58.2ms)
+Completed in 71ms (View: 65, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:59:48) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (7.5ms)
+Rendered people/_p2 (14.9ms)
+Rendered people/_p3 (76.4ms)
+Rendered people/_form (108.5ms)
+Completed in 121ms (View: 115, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 11:59:52) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (12.9ms)
+Rendered people/_p2 (21.7ms)
+Rendered people/_p3 (2.4ms)
+Rendered people/_form (44.4ms)
+Completed in 54ms (View: 48, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:02:40) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (58.1ms)
+Rendered people/_p2 (93.8ms)
+Rendered people/_p3 (3.4ms)
+Rendered people/_form (173.8ms)
+Completed in 184ms (View: 177, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:02:55) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (11.1ms)
+Rendered people/_p2 (43.7ms)
+Rendered people/_p3 (2.6ms)
+Rendered people/_form (65.6ms)
+Completed in 78ms (View: 69, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 12:06:02) [GET]
+  [4;36;1mPerson Load (0.8ms)[0m   [0;1mSELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering people/index
+Rendered people/_person (2.8ms)
+Completed in 12ms (View: 7, DB: 1) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:06:18) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (62.7ms)
+Rendered people/_p2 (15.5ms)
+Rendered people/_p3 (2.4ms)
+Rendered people/_form (88.6ms)
+Completed in 108ms (View: 96, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#create (for 127.0.0.1 at 2010-04-11 12:22:01) [POST]
+  Parameters: {"person"=>{"last_name"=>"bb", "first_name"=>"aa"}, "commit"=>"Submit", "authenticity_token"=>"eaNGbgnydpKVEqIrm9tPPrYrc4KG3/1BJBGa0S86JOk="}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (51.6ms)
+Rendered people/_p2 (128.8ms)
+Rendered people/_p3 (12.2ms)
+Rendered people/_form (261.5ms)
+Completed in 785ms (View: 775, DB: 0) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:22:02) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (7.3ms)
+Rendered people/_p2 (15.5ms)
+Rendered people/_p3 (2.6ms)
+Rendered people/_form (32.7ms)
+Completed in 43ms (View: 36, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#create (for 127.0.0.1 at 2010-04-11 12:22:14) [POST]
+  Parameters: {"person"=>{"last_name"=>"bb", "first_name"=>"aa"}, "commit"=>"Submit", "authenticity_token"=>"eaNGbgnydpKVEqIrm9tPPrYrc4KG3/1BJBGa0S86JOk="}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (71.1ms)
+Rendered people/_p2 (52.1ms)
+Rendered people/_p3 (10.1ms)
+Rendered people/_form (166.3ms)
+Completed in 186ms (View: 171, DB: 0) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#create (for 127.0.0.1 at 2010-04-11 12:22:25) [POST]
+  Parameters: {"person"=>{"last_name"=>"last_name", "first_name"=>"first_name"}, "commit"=>"Submit", "authenticity_token"=>"eaNGbgnydpKVEqIrm9tPPrYrc4KG3/1BJBGa0S86JOk="}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (15.1ms)
+Rendered people/_p2 (38.3ms)
+Rendered people/_p3 (8.8ms)
+Rendered people/_form (73.7ms)
+Completed in 179ms (View: 77, DB: 0) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#create (for 127.0.0.1 at 2010-04-11 12:22:37) [POST]
+  Parameters: {"person"=>{"comments"=>"comments"}, "commit"=>"Submit", "authenticity_token"=>"eaNGbgnydpKVEqIrm9tPPrYrc4KG3/1BJBGa0S86JOk="}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (102.8ms)
+Rendered people/_p2 (37.9ms)
+Rendered people/_p3 (10.0ms)
+Rendered people/_form (163.0ms)
+Completed in 176ms (View: 167, DB: 0) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 12:23:47) [GET]
+  [4;35;1mPerson Load (0.9ms)[0m   [0mSELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering people/index
+Rendered people/_person (4.8ms)
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:23:49) [GET]
+Rendering template within layouts/application
+Rendering people/new
+
+ActionView::TemplateError (undefined method `remote_link' for #<ActionView::Base:0x103709708>) on line #10 of app/views/people/_p1.html.haml:
+7: 		= f.input :first_name, :label => 'First name'
+8: 		= f.input :last_name, :label => 'Last name'
+9: 		= f.submit "Submit", :onclick => "copy_form(#{form_name})"
+10: 		= remote_link "submit - javascript", "copy_form(#{form_name});"
+
+    app/views/people/_p1.html.haml:10:in `_run_haml_app47views47people47_p146html46haml_locals_object_p1'
+    haml (2.2.22) lib/haml/helpers.rb:349:in `call'
+    haml (2.2.22) lib/haml/helpers.rb:349:in `capture_haml'
+    haml (2.2.22) lib/haml/helpers.rb:551:in `with_haml_buffer'
+    haml (2.2.22) lib/haml/helpers.rb:345:in `capture_haml'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1267:in `field_set_and_list_wrapping'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:266:in `inputs'
+    app/views/people/_p1.html.haml:6:in `_run_haml_app47views47people47_p146html46haml_locals_object_p1'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:203:in `call'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:203:in `form_for'
+    haml (2.2.22) lib/haml/helpers.rb:573:in `call'
+    haml (2.2.22) lib/haml/helpers.rb:573:in `haml_bind_proc'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:209:in `form_for'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1703:in `semantic_form_for'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1681:in `with_custom_field_error_proc'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1702:in `semantic_form_for'
+    app/views/people/_p1.html.haml:3:in `_run_haml_app47views47people47_p146html46haml_locals_object_p1'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/_form.html.haml:1:in `_run_haml_app47views47people47_form46html46haml_locals_form_object_person'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/new.html.haml:2:in `_run_haml_app47views47people47new46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/people_controller.rb:48:in `new'
+    haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (181.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:23:55) [GET]
+Rendering template within layouts/application
+Rendering people/new
+
+ActionView::TemplateError (undefined method `remote_link_to' for #<ActionView::Base:0x10358d820>) on line #10 of app/views/people/_p1.html.haml:
+7: 		= f.input :first_name, :label => 'First name'
+8: 		= f.input :last_name, :label => 'Last name'
+9: 		= f.submit "Submit", :onclick => "copy_form(#{form_name})"
+10: 		= remote_link_to "submit - javascript", "copy_form(#{form_name});"
+
+    app/views/people/_p1.html.haml:10:in `_run_haml_app47views47people47_p146html46haml_locals_object_p1'
+    haml (2.2.22) lib/haml/helpers.rb:349:in `call'
+    haml (2.2.22) lib/haml/helpers.rb:349:in `capture_haml'
+    haml (2.2.22) lib/haml/helpers.rb:551:in `with_haml_buffer'
+    haml (2.2.22) lib/haml/helpers.rb:345:in `capture_haml'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1267:in `field_set_and_list_wrapping'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:266:in `inputs'
+    app/views/people/_p1.html.haml:6:in `_run_haml_app47views47people47_p146html46haml_locals_object_p1'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:203:in `call'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:203:in `form_for'
+    haml (2.2.22) lib/haml/helpers.rb:573:in `call'
+    haml (2.2.22) lib/haml/helpers.rb:573:in `haml_bind_proc'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:209:in `form_for'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1703:in `semantic_form_for'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1681:in `with_custom_field_error_proc'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1702:in `semantic_form_for'
+    app/views/people/_p1.html.haml:3:in `_run_haml_app47views47people47_p146html46haml_locals_object_p1'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/_form.html.haml:1:in `_run_haml_app47views47people47_form46html46haml_locals_form_object_person'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/new.html.haml:2:in `_run_haml_app47views47people47new46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/people_controller.rb:48:in `new'
+    haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (163.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:24:06) [GET]
+Rendering template within layouts/application
+Rendering people/new
+
+ActionView::TemplateError (undefined method `link_remote_to' for #<ActionView::Base:0x10344ebd0>) on line #10 of app/views/people/_p1.html.haml:
+7: 		= f.input :first_name, :label => 'First name'
+8: 		= f.input :last_name, :label => 'Last name'
+9: 		= f.submit "Submit", :onclick => "copy_form(#{form_name})"
+10: 		= link_remote_to "submit - javascript", "copy_form(#{form_name});"
+
+    app/views/people/_p1.html.haml:10:in `_run_haml_app47views47people47_p146html46haml_locals_object_p1'
+    haml (2.2.22) lib/haml/helpers.rb:349:in `call'
+    haml (2.2.22) lib/haml/helpers.rb:349:in `capture_haml'
+    haml (2.2.22) lib/haml/helpers.rb:551:in `with_haml_buffer'
+    haml (2.2.22) lib/haml/helpers.rb:345:in `capture_haml'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1267:in `field_set_and_list_wrapping'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:266:in `inputs'
+    app/views/people/_p1.html.haml:6:in `_run_haml_app47views47people47_p146html46haml_locals_object_p1'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:203:in `call'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:203:in `form_for'
+    haml (2.2.22) lib/haml/helpers.rb:573:in `call'
+    haml (2.2.22) lib/haml/helpers.rb:573:in `haml_bind_proc'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:209:in `form_for'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1703:in `semantic_form_for'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1681:in `with_custom_field_error_proc'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1702:in `semantic_form_for'
+    app/views/people/_p1.html.haml:3:in `_run_haml_app47views47people47_p146html46haml_locals_object_p1'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/_form.html.haml:1:in `_run_haml_app47views47people47_form46html46haml_locals_form_object_person'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/new.html.haml:2:in `_run_haml_app47views47people47new46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/people_controller.rb:48:in `new'
+    haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (150.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:24:09) [GET]
+Rendering template within layouts/application
+Rendering people/new
+
+ActionView::TemplateError (undefined method `link_remote' for #<ActionView::Base:0x10336a840>) on line #10 of app/views/people/_p1.html.haml:
+7: 		= f.input :first_name, :label => 'First name'
+8: 		= f.input :last_name, :label => 'Last name'
+9: 		= f.submit "Submit", :onclick => "copy_form(#{form_name})"
+10: 		= link_remote "submit - javascript", "copy_form(#{form_name});"
+
+    app/views/people/_p1.html.haml:10:in `_run_haml_app47views47people47_p146html46haml_locals_object_p1'
+    haml (2.2.22) lib/haml/helpers.rb:349:in `call'
+    haml (2.2.22) lib/haml/helpers.rb:349:in `capture_haml'
+    haml (2.2.22) lib/haml/helpers.rb:551:in `with_haml_buffer'
+    haml (2.2.22) lib/haml/helpers.rb:345:in `capture_haml'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1267:in `field_set_and_list_wrapping'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:266:in `inputs'
+    app/views/people/_p1.html.haml:6:in `_run_haml_app47views47people47_p146html46haml_locals_object_p1'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:203:in `call'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:203:in `form_for'
+    haml (2.2.22) lib/haml/helpers.rb:573:in `call'
+    haml (2.2.22) lib/haml/helpers.rb:573:in `haml_bind_proc'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:209:in `form_for'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1703:in `semantic_form_for'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1681:in `with_custom_field_error_proc'
+    formtastic (0.9.8) rails/./lib/formtastic.rb:1702:in `semantic_form_for'
+    app/views/people/_p1.html.haml:3:in `_run_haml_app47views47people47_p146html46haml_locals_object_p1'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/_form.html.haml:1:in `_run_haml_app47views47people47_form46html46haml_locals_form_object_person'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/new.html.haml:2:in `_run_haml_app47views47people47new46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/people_controller.rb:48:in `new'
+    haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (151.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:24:23) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (36.4ms)
+Rendered people/_p2 (16.5ms)
+Rendered people/_p3 (2.2ms)
+Rendered people/_form (72.0ms)
+Completed in 94ms (View: 83, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:25:03) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (14.7ms)
+Rendered people/_p2 (19.9ms)
+Rendered people/_p3 (2.4ms)
+Rendered people/_form (49.9ms)
+Completed in 63ms (View: 55, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:25:04) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (15.1ms)
+Rendered people/_p2 (16.2ms)
+Rendered people/_p3 (2.7ms)
+Rendered people/_form (41.9ms)
+Completed in 135ms (View: 123, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:25:22) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (11.9ms)
+Rendered people/_p2 (20.9ms)
+Rendered people/_p3 (2.3ms)
+Rendered people/_form (46.5ms)
+Completed in 60ms (View: 53, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:25:59) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (83.1ms)
+Rendered people/_p2 (90.5ms)
+Rendered people/_p3 (3.5ms)
+Rendered people/_form (190.8ms)
+Completed in 201ms (View: 195, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:27:34) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (52.8ms)
+Rendered people/_p2 (22.6ms)
+Rendered people/_p3 (4.1ms)
+Rendered people/_form (102.6ms)
+Completed in 133ms (View: 115, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:28:01) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (125.2ms)
+Rendered people/_p2 (15.1ms)
+Rendered people/_p3 (2.9ms)
+Rendered people/_form (156.6ms)
+Completed in 170ms (View: 162, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:28:39) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (9.4ms)
+Rendered people/_p2 (15.4ms)
+Rendered people/_p3 (2.3ms)
+Rendered people/_form (44.5ms)
+Completed in 60ms (View: 50, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:28:59) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (44.8ms)
+Rendered people/_p2 (24.0ms)
+Rendered people/_p3 (3.6ms)
+Rendered people/_form (88.1ms)
+Completed in 99ms (View: 92, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:30:58) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (34.3ms)
+Rendered people/_p2 (17.2ms)
+Rendered people/_p3 (93.3ms)
+Rendered people/_form (169.6ms)
+Completed in 202ms (View: 182, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:31:23) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (13.7ms)
+Rendered people/_p2 (22.1ms)
+Rendered people/_p3 (3.0ms)
+Rendered people/_form (59.6ms)
+Completed in 80ms (View: 72, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:34:24) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (60.2ms)
+Rendered people/_p2 (9.0ms)
+Rendered people/_p3 (2.8ms)
+Rendered people/_form (184.2ms)
+Completed in 200ms (View: 192, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:34:33) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (7.6ms)
+Rendered people/_p2 (9.2ms)
+Rendered people/_p3 (2.4ms)
+Rendered people/_form (30.2ms)
+Completed in 40ms (View: 33, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:34:57) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (7.4ms)
+Rendered people/_p2 (81.4ms)
+Rendered people/_p3 (2.6ms)
+Rendered people/_form (101.3ms)
+Completed in 117ms (View: 109, DB: 0) | 200 OK [http://localhost/people/new]

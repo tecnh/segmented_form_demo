@@ -1,0 +1,11 @@
+= javascript_for_validatious
+- form_name = 'p2'
+- semantic_form_for @person, :html => {:class => 'validate', :id => form_name } do |f|
+	= f.error_messages
+	%p
+	- f.inputs do
+		= f.input :age, :label => 'Age'
+		= f.input :status, :label => 'Status', :collection => ["alive", "deceased"]
+		= f.input :city_of_birth, :label => 'City of birth'
+		= f.submit "Submit"
+		= link_to_function "submit - javascript", "copy_form($('##{form_name}'))"

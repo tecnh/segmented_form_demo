@@ -15,7 +15,6 @@ ActiveRecord::Schema.define(:version => 20100411172750) do
     t.string   "first_name"
     t.string   "last_name"
     t.integer  "age"
-    t.datetime "dob"
     t.string   "status"
     t.string   "city_of_birth"
     t.text     "comments"
