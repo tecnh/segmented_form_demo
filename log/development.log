@@ -525,3 +525,31 @@ Rendering template within layouts/application
 Rendering people/index
 Rendered people/_person (3.2ms)
 Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:46:35) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (74.5ms)
+Completed in 89ms (View: 83, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#create (for 127.0.0.1 at 2010-04-11 10:46:37) [POST]
+  Parameters: {"person"=>{"comments"=>"", "city_of_birth"=>"", "dob(1i)"=>"2010", "dob(2i)"=>"4", "dob(3i)"=>"11", "dob(4i)"=>"10", "dob(5i)"=>"46", "last_name"=>"", "status"=>"", "age"=>"", "first_name"=>""}, "commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI="}
+
+NoMethodError (undefined method `brand_new?' for #<Person:0x10368a778>):
+  app/controllers/people_controller.rb:10:in `create'
+  app/controllers/people_controller.rb:9:in `create'
+  haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (42.2ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#create (for 127.0.0.1 at 2010-04-11 10:46:48) [POST]
+  Parameters: {"person"=>{"comments"=>"", "city_of_birth"=>"", "dob(1i)"=>"2010", "dob(2i)"=>"4", "dob(3i)"=>"11", "dob(4i)"=>"10", "dob(5i)"=>"46", "last_name"=>"", "status"=>"", "age"=>"", "first_name"=>""}, "commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI="}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (116.1ms)
+Completed in 129ms (View: 119, DB: 0) | 200 OK [http://localhost/people]
