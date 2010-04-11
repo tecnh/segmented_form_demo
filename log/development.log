@@ -4714,3 +4714,27 @@ Rendered people/_p2 (10.0ms)
 Rendered people/_p3 (2.6ms)
 Rendered people/_form (57.4ms)
 Completed in 72ms (View: 63, DB: 0) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#create (for 127.0.0.1 at 2010-04-11 16:13:54) [POST]
+  Parameters: {"person"=>{"dob"=>"", "comments"=>"", "city_of_birth"=>"", "last_name"=>"Ellis", "status"=>"alive", "age"=>"10", "first_name"=>"Mat"}, "authenticity_token"=>"fQbaoj7VX8dxFurdYQe/aM03K6ACFevYHIdrjTMoHMQ="}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_master (41.9ms)
+Rendered people/_p1 (3.9ms)
+Rendered people/_p2 (10.5ms)
+Rendered people/_p3 (2.7ms)
+Rendered people/_form (66.3ms)
+Completed in 173ms (View: 159, DB: 0) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#create (for 127.0.0.1 at 2010-04-11 16:13:58) [POST]
+  Parameters: {"person"=>{"dob"=>"", "comments"=>"", "city_of_birth"=>"", "last_name"=>"Ellis", "status"=>"alive", "age"=>"10", "first_name"=>"Mat"}, "authenticity_token"=>"fQbaoj7VX8dxFurdYQe/aM03K6ACFevYHIdrjTMoHMQ="}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_master (19.0ms)
+Rendered people/_p1 (4.8ms)
+Rendered people/_p2 (13.4ms)
+Rendered people/_p3 (3.0ms)
+Rendered people/_form (42.6ms)
+Completed in 57ms (View: 47, DB: 0) | 200 OK [http://localhost/people]
