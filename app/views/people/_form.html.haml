@@ -1,0 +1,12 @@
+- semantic_form_for(person) do |f|
+	= f.error_messages
+	%p
+	- f.inputs do
+		= f.input :first_name, :label => 'First name'
+		= f.input :last_name, :label => 'Last name'
+		= f.input :age, :label => 'Age'
+		= f.input :dob, :label => 'Dob'
+		= f.input :status, :label => 'Status'
+		= f.input :city_of_birth, :label => 'City of birth'
+		= f.input :comments, :label => 'Comments'
+		= f.submit "Submit"

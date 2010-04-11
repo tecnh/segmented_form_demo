@@ -1,0 +1,527 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-11 10:22:44) [GET]
+
+ActionController::RoutingError (No route matches "/people" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-11 10:22:47) [GET]
+
+ActionController::RoutingError (No route matches "/people/index" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-11 10:22:52) [GET]
+
+ActionController::RoutingError (No route matches "/people/new" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.2ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateCreatePeople (20100411172114)
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCREATE TABLE "create_people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255), "last_name" varchar(255), "age" integer, "dob" datetime, "status" varchar(255), "city_of_birth" varchar(255), "comments" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100411172114')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("create_people")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "create_people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255), "last_name" varchar(255), "age" integer, "dob" datetime, "status" varchar(255), "city_of_birth" varchar(255), "comments" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20100411172114')[0m
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 10:34:04) [GET]
+  [4;36;1mPerson Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: people: SELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: people: SELECT * FROM "people"  LIMIT 20 OFFSET 0):
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:82:in `send'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:82:in `paginate'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/collection.rb:87:in `create'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:76:in `paginate'
+  app/controllers/people_controller.rb:36:in `index'
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (40.9ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.7ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.3ms)[0m   [0;1mCREATE TABLE "create_people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255), "last_name" varchar(255), "age" integer, "dob" datetime, "status" varchar(255), "city_of_birth" varchar(255), "comments" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.1ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20100411172114')[0m
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 10:34:21) [GET]
+  [4;35;1mPerson Load (0.0ms)[0m   [0mSQLite3::SQLException: no such table: people: SELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: people: SELECT * FROM "people"  LIMIT 20 OFFSET 0):
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:82:in `send'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:82:in `paginate'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/collection.rb:87:in `create'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:76:in `paginate'
+  app/controllers/people_controller.rb:36:in `index'
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (40.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 10:34:22) [GET]
+  [4;36;1mPerson Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: people: SELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: people: SELECT * FROM "people"  LIMIT 20 OFFSET 0):
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:82:in `send'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:82:in `paginate'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/collection.rb:87:in `create'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:76:in `paginate'
+  app/controllers/people_controller.rb:36:in `index'
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (39.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 10:34:28) [GET]
+  [4;35;1mPerson Load (0.0ms)[0m   [0mSQLite3::SQLException: no such table: people: SELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: people: SELECT * FROM "people"  LIMIT 20 OFFSET 0):
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:82:in `send'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:82:in `paginate'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/collection.rb:87:in `create'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:76:in `paginate'
+  app/controllers/people_controller.rb:36:in `index'
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (38.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 10:34:29) [GET]
+  [4;36;1mPerson Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: people: SELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: people: SELECT * FROM "people"  LIMIT 20 OFFSET 0):
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:82:in `send'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:82:in `paginate'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/collection.rb:87:in `create'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:76:in `paginate'
+  app/controllers/people_controller.rb:36:in `index'
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (117.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 10:34:39) [GET]
+  [4;36;1mPerson Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: people: SELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: people: SELECT * FROM "people"  LIMIT 20 OFFSET 0):
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:82:in `send'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:82:in `paginate'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/collection.rb:87:in `create'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:76:in `paginate'
+  app/controllers/people_controller.rb:36:in `index'
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (38.8ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 10:34:40) [GET]
+  [4;35;1mPerson Load (0.0ms)[0m   [0mSQLite3::SQLException: no such table: people: SELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: people: SELECT * FROM "people"  LIMIT 20 OFFSET 0):
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:82:in `send'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:82:in `paginate'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/collection.rb:87:in `create'
+  /Library/Ruby/Gems/1.8/gems/will_paginate-2.3.12/lib/will_paginate/finder.rb:76:in `paginate'
+  app/controllers/people_controller.rb:36:in `index'
+  haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (3.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.4ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100411172750)
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255), "last_name" varchar(255), "age" integer, "dob" datetime, "status" varchar(255), "city_of_birth" varchar(255), "comments" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100411172750')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("people")[0m
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 10:35:43) [GET]
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering people/index
+Completed in 123ms (View: 117, DB: 1) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:35:46) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (6.3ms)
+Completed in 24ms (View: 19, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#create (for 127.0.0.1 at 2010-04-11 10:35:47) [POST]
+  Parameters: {"commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI="}
+  [4;35;1mPerson Create (1.3ms)[0m   [0mINSERT INTO "people" ("dob", "created_at", "city_of_birth", "comments", "updated_at", "last_name", "age", "status", "first_name") VALUES(NULL, '2010-04-11 17:35:47', NULL, NULL, '2010-04-11 17:35:47', NULL, NULL, NULL, NULL)[0m
+Redirected to http://localhost:3000/people/1
+Completed in 91ms (DB: 1) | 302 Found [http://localhost/people]
+
+
+Processing PeopleController#show (for 127.0.0.1 at 2010-04-11 10:35:48) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/show
+Completed in 33ms (View: 23, DB: 0) | 200 OK [http://localhost/people/1]
+
+
+Processing PeopleController#edit (for 127.0.0.1 at 2010-04-11 10:35:50) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/edit
+Rendered people/_form (3.3ms)
+Completed in 89ms (View: 83, DB: 0) | 200 OK [http://localhost/people/1/edit]
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 10:35:53) [GET]
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering people/index
+Rendered people/_person (4.7ms)
+Completed in 17ms (View: 11, DB: 1) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#show (for 127.0.0.1 at 2010-04-11 10:35:55) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/show
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/people/1]
+
+
+Processing PeopleController#show (for 127.0.0.1 at 2010-04-11 10:37:00) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPerson Load (0.4ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/show
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/people/1]
+
+
+Processing PeopleController#edit (for 127.0.0.1 at 2010-04-11 10:37:06) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/edit
+
+ActionView::TemplateError (Inconsistent indentation: 2 tabs were used for indentation, but the rest of the document was indented using 2 spaces.) on line #4 of app/views/people/_form.html.haml:
+1: - semantic_form_for(person) do |f|
+2:   = f.error_messages
+3:   %p
+4: 		= f.input :first_name
+5: 		= f.input :last_name
+6:     = f.submit "Submit"
+
+    app/views/people/_form.html.haml:4
+    haml (2.2.22) lib/haml/precompiler.rb:169:in `tabs'
+    haml (2.2.22) lib/haml/precompiler.rb:151:in `instance_eval'
+    haml (2.2.22) lib/haml/precompiler.rb:151:in `tabs'
+    haml (2.2.22) lib/haml/precompiler.rb:1007:in `block_opened?'
+    haml (2.2.22) lib/haml/precompiler.rb:758:in `render_tag'
+    haml (2.2.22) lib/haml/precompiler.rb:231:in `process_line'
+    haml (2.2.22) lib/haml/precompiler.rb:195:in `precompile'
+    haml (2.2.22) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.22) rails/./lib/haml/template/plugin.rb:27:in `new'
+    haml (2.2.22) rails/./lib/haml/template/plugin.rb:27:in `compile'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/edit.html.haml:2:in `_run_haml_app47views47people47edit46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (127.6ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#edit (for 127.0.0.1 at 2010-04-11 10:37:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/edit
+
+ActionView::TemplateError (Inconsistent indentation: 2 tabs were used for indentation, but the rest of the document was indented using 2 spaces.) on line #4 of app/views/people/_form.html.haml:
+1: - semantic_form_for(person) do |f|
+2:   = f.error_messages
+3:   %p
+4: 		= f.input :first_name
+5: 		= f.input :last_name
+6:     = f.submit "Submit"
+
+    app/views/people/_form.html.haml:4
+    haml (2.2.22) lib/haml/precompiler.rb:169:in `tabs'
+    haml (2.2.22) lib/haml/precompiler.rb:151:in `instance_eval'
+    haml (2.2.22) lib/haml/precompiler.rb:151:in `tabs'
+    haml (2.2.22) lib/haml/precompiler.rb:1007:in `block_opened?'
+    haml (2.2.22) lib/haml/precompiler.rb:758:in `render_tag'
+    haml (2.2.22) lib/haml/precompiler.rb:231:in `process_line'
+    haml (2.2.22) lib/haml/precompiler.rb:195:in `precompile'
+    haml (2.2.22) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.22) rails/./lib/haml/template/plugin.rb:27:in `new'
+    haml (2.2.22) rails/./lib/haml/template/plugin.rb:27:in `compile'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/edit.html.haml:2:in `_run_haml_app47views47people47edit46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (165.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#edit (for 127.0.0.1 at 2010-04-11 10:37:28) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPerson Load (10.7ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/edit
+
+ActionView::TemplateError (undefined method `semantic_form_for' for #<ActionView::Base:0x103664cf8>) on line #1 of app/views/people/_form.html.haml:
+1: - semantic_form_for(person) do |f|
+2: 	= f.error_messages
+3: 	%p
+4: 		= f.input :first_name
+
+    app/views/people/_form.html.haml:1:in `_run_haml_app47views47people47_form46html46haml_locals_form_object_person'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/edit.html.haml:2:in `_run_haml_app47views47people47edit46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) rails/./lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (47.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#edit (for 127.0.0.1 at 2010-04-11 10:39:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/edit
+Rendered people/_form (37.1ms)
+Completed in 86ms (View: 80, DB: 0) | 200 OK [http://localhost/people/1/edit]
+
+
+Processing PeopleController#edit (for 127.0.0.1 at 2010-04-11 10:40:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/edit
+
+ActionView::TemplateError (Inconsistent indentation: "\t  " was used for indentation, but the rest of the document was indented using 1 tab.) on line #5 of app/views/people/_form.html.haml:
+2: 	= f.error_messages
+3: 	%p
+4: 	- f.inputs do
+5: 	  = f.input :first_name, :label => 'First name'
+6: 	  = f.input :last_name, :label => 'Last name'
+7: 	  = f.input :age, :label => 'Age'
+8: 	  = f.input :dob, :label => 'Dob'
+
+    app/views/people/_form.html.haml:5
+    haml (2.2.22) lib/haml/precompiler.rb:169:in `tabs'
+    haml (2.2.22) lib/haml/precompiler.rb:151:in `instance_eval'
+    haml (2.2.22) lib/haml/precompiler.rb:151:in `tabs'
+    haml (2.2.22) lib/haml/precompiler.rb:1007:in `block_opened?'
+    haml (2.2.22) lib/haml/precompiler.rb:263:in `process_line'
+    haml (2.2.22) lib/haml/precompiler.rb:195:in `precompile'
+    haml (2.2.22) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.22) lib/haml/template/plugin.rb:27:in `new'
+    haml (2.2.22) lib/haml/template/plugin.rb:27:in `compile'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/edit.html.haml:2:in `_run_haml_app47views47people47edit46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (60.1ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#edit (for 127.0.0.1 at 2010-04-11 10:40:34) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPerson Load (0.2ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/edit
+Rendered people/_form (98.7ms)
+Completed in 112ms (View: 106, DB: 0) | 200 OK [http://localhost/people/1/edit]
+
+
+Processing PeopleController#edit (for 127.0.0.1 at 2010-04-11 10:41:54) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/edit
+Rendered people/_form (554.3ms)
+
+ActionView::TemplateError (Inconsistent indentation: 2 tabs were used for indentation, but the rest of the document was indented using 2 spaces.) on line #10 of app/views/layouts/application.html.haml:
+7:     %link{ :rel => "shortcut icon", :href => "/favicon.ico" }
+8:     = stylesheet_link_tag "application", :media => "screen"
+9:     = javascript_include_tag :defaults
+10: 		= stylesheet_link_tag 'formtastic.css', 'formtastic_changes', :cache => :formtastic
+11: 		
+12:   %body
+13:     #wrapper
+
+    app/views/layouts/application.html.haml:10
+    haml (2.2.22) lib/haml/precompiler.rb:169:in `tabs'
+    haml (2.2.22) lib/haml/precompiler.rb:151:in `instance_eval'
+    haml (2.2.22) lib/haml/precompiler.rb:151:in `tabs'
+    haml (2.2.22) lib/haml/precompiler.rb:1007:in `block_opened?'
+    haml (2.2.22) lib/haml/precompiler.rb:394:in `push_script'
+    haml (2.2.22) lib/haml/precompiler.rb:241:in `process_line'
+    haml (2.2.22) lib/haml/precompiler.rb:195:in `precompile'
+    haml (2.2.22) lib/haml/engine.rb:114:in `initialize'
+    haml (2.2.22) lib/haml/template/plugin.rb:27:in `new'
+    haml (2.2.22) lib/haml/template/plugin.rb:27:in `compile'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (128.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#edit (for 127.0.0.1 at 2010-04-11 10:42:11) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/edit
+Rendered people/_form (20.6ms)
+Completed in 37ms (View: 31, DB: 0) | 200 OK [http://localhost/people/1/edit]
+
+
+Processing PeopleController#update (for 127.0.0.1 at 2010-04-11 10:42:30) [PUT]
+  Parameters: {"person"=>{"comments"=>"Poo", "city_of_birth"=>"Shoreham", "dob(1i)"=>"2010", "dob(2i)"=>"4", "dob(3i)"=>"11", "dob(4i)"=>"10", "dob(5i)"=>"42", "last_name"=>"Person", "status"=>"alive", "age"=>"1", "first_name"=>"Test"}, "commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI=", "id"=>"1"}
+  [4;35;1mPerson Load (0.2ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+  [4;36;1mPerson Update (0.8ms)[0m   [0;1mUPDATE "people" SET "updated_at" = '2010-04-11 17:42:31', "comments" = 'Poo', "dob" = '2010-04-11 10:42:00', "city_of_birth" = 'Shoreham', "status" = 'alive', "age" = 1, "last_name" = 'Person', "first_name" = 'Test' WHERE "id" = 1[0m
+Redirected to http://localhost:3000/people/1
+Completed in 214ms (DB: 1) | 302 Found [http://localhost/people/1]
+
+
+Processing PeopleController#show (for 127.0.0.1 at 2010-04-11 10:42:31) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPerson Load (0.2ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/show
+Completed in 87ms (View: 81, DB: 0) | 200 OK [http://localhost/people/1]
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 10:42:33) [GET]
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering people/index
+Rendered people/_person (4.3ms)
+Completed in 20ms (View: 15, DB: 1) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#show (for 127.0.0.1 at 2010-04-11 10:42:35) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPerson Load (1.5ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/show
+Completed in 16ms (View: 6, DB: 1) | 200 OK [http://localhost/people/1]
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 10:42:37) [GET]
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering people/index
+Rendered people/_person (3.2ms)
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/people]

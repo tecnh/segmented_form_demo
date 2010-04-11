@@ -1,0 +1,18 @@
+class CreatePeople < ActiveRecord::Migration
+  def self.up
+    create_table :people do |t|
+      t.string :first_name
+      t.string :last_name
+      t.integer :age
+      t.datetime :dob
+      t.string :status
+      t.string :city_of_birth
+      t.text :comments
+      t.timestamps
+    end
+  end
+
+  def self.down
+    drop_table :people
+  end
+end
