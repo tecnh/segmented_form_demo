@@ -1,4 +1,4 @@
-- semantic_form_for(person) do |f|
+- semantic_form_for(person, :html => {:class => 'validate'}) do |f|
 	= f.error_messages
 	%p
 	- f.inputs do

@@ -553,3 +553,252 @@ Rendering template within layouts/application
 Rendering people/new
 Rendered people/_form (116.1ms)
 Completed in 129ms (View: 119, DB: 0) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 10:47:32) [GET]
+  [4;35;1mPerson Load (0.7ms)[0m   [0mSELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering people/index
+Rendered people/_person (3.1ms)
+Completed in 21ms (View: 15, DB: 1) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:47:34) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (71.0ms)
+Completed in 81ms (View: 75, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:47:53) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (131.3ms)
+Completed in 160ms (View: 154, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:48:38) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (82.7ms)
+Completed in 94ms (View: 88, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:49:35) [GET]
+Rendering template within layouts/application
+Rendering people/new
+ERROR: compiling _run_haml_app47views47people47_form46html46haml_locals_form_object_person RAISED compile error
+/Volumes/Code/git/mp/app/views/people/_form.html.haml:1: syntax error, unexpected ',', expecting kEND
+...e;; semantic_form_for(person), :html => {:class => 'validate...
+                              ^
+/Volumes/Code/git/mp/app/views/people/_form.html.haml:1: syntax error, unexpected kDO, expecting kEND
+...l => {:class => 'validate'} do |f|;
+                              ^
+/Volumes/Code/git/mp/app/views/people/_form.html.haml:14: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47people47_form46html46haml_locals_form_object_person(local_assigns)
+            old_output_buffer = output_buffer;person = local_assigns[:person];object = local_assigns[:object];form = local_assigns[:form];;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :format=>:xhtml, :preserve=>["textarea", "pre", "code"], :encoding=>nil, :ugly=>false, :escape_html=>false});_erbout = _hamlout.buffer;__in_erb_template = true;; semantic_form_for(person), :html => {:class => 'validate'} do |f|;
+_hamlout.push_text("#{haml_temp =  f.error_messages
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n<p></p>\n", 0, false);
+ f.inputs do;
+_hamlout.push_text("#{haml_temp =  f.input :first_name, :label => 'First name'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  f.input :last_name, :label => 'Last name'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  f.input :age, :label => 'Age'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  f.input :dob, :label => 'Dob'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  f.input :status, :label => 'Status'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  f.input :city_of_birth, :label => 'City of birth'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  f.input :comments, :label => 'Comments'
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n#{haml_temp =  f.submit "Submit"
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n", 0, false);end;end;_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Volumes/Code/git/mp/app/views/people/_form.html.haml:14:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:20:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:19:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/partials.rb:184:in `render_partial'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:267:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.22/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.22/lib/haml/helpers.rb:96:in `non_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.22/lib/haml/helpers/action_view_mods.rb:11:in `render'
+/Volumes/Code/git/mp/app/views/people/new.html.haml:2:in `_run_haml_app47views47people47new46html46haml'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:34:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:306:in `with_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:30:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.22/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.22/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:951:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:135:in `custom'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:179:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `each'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:173:in `respond'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/Volumes/Code/git/mp/app/controllers/people_controller.rb:48:in `new'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1331:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Library/Ruby/Gems/1.8/gems/haml-2.2.22/lib/sass/plugin/rails.rb:20:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Volumes/Code/git/mp/app/views/people/_form.html.haml:1: syntax error, unexpected ',', expecting kEND
+...e;; semantic_form_for(person), :html => {:class => 'validate...
+                              ^
+/Volumes/Code/git/mp/app/views/people/_form.html.haml:1: syntax error, unexpected kDO, expecting kEND
+...l => {:class => 'validate'} do |f|;
+                              ^
+/Volumes/Code/git/mp/app/views/people/_form.html.haml:14: syntax error, unexpected kENSURE, expecting $end) on line #1 of app/views/people/_form.html.haml:
+1: - semantic_form_for(person), :html => {:class => 'validate'} do |f|
+2: 	= f.error_messages
+3: 	%p
+4: 	- f.inputs do
+
+    app/views/people/_form.html.haml:14:in `compile!'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    haml (2.2.22) lib/haml/helpers.rb:96:in `non_haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:11:in `render'
+    app/views/people/new.html.haml:2:in `_run_haml_app47views47people47new46html46haml'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.22) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/controllers/people_controller.rb:48:in `new'
+    haml (2.2.22) lib/sass/plugin/rails.rb:20:in `process'
+
+Rendered rescues/_trace (162.4ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:49:44) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (47.8ms)
+Completed in 62ms (View: 56, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:50:19) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (98.6ms)
+Completed in 109ms (View: 103, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#create (for 127.0.0.1 at 2010-04-11 10:50:42) [POST]
+  Parameters: {"person"=>{"comments"=>"", "city_of_birth"=>"defsdfs", "dob(1i)"=>"2010", "dob(2i)"=>"4", "dob(3i)"=>"11", "dob(4i)"=>"10", "dob(5i)"=>"50", "last_name"=>"Ellis", "status"=>"Poo", "age"=>"2334ogorogkrewkogpfkop", "first_name"=>"Mat"}, "commit"=>"Submit", "authenticity_token"=>"U7Zvt2NcjRskSpnZnnyTEWrVjk8vdzqS5FnSa85gJwI="}
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (26.3ms)
+Completed in 270ms (View: 31, DB: 0) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 10:51:23) [GET]
+  [4;36;1mPerson Load (0.7ms)[0m   [0;1mSELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering people/index
+Rendered people/_person (4.5ms)
+Completed in 100ms (View: 95, DB: 1) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:51:25) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (44.3ms)
+Completed in 54ms (View: 48, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:52:57) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (56.0ms)
+Completed in 70ms (View: 64, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:53:32) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (22.4ms)
+Completed in 33ms (View: 26, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:53:52) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (21.0ms)
+Completed in 31ms (View: 25, DB: 0) | 200 OK [http://localhost/people/new]
