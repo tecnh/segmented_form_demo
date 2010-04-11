@@ -2039,3 +2039,341 @@ Rendered people/_p2 (81.4ms)
 Rendered people/_p3 (2.6ms)
 Rendered people/_form (101.3ms)
 Completed in 117ms (View: 109, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:36:31) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (38.2ms)
+Rendered people/_p2 (8.5ms)
+Rendered people/_p3 (3.8ms)
+Rendered people/_form (70.1ms)
+Completed in 85ms (View: 75, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:36:46) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (9.0ms)
+Rendered people/_p2 (8.3ms)
+Rendered people/_p3 (2.9ms)
+Rendered people/_form (116.2ms)
+Completed in 129ms (View: 120, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:37:18) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (13.7ms)
+Rendered people/_p2 (7.9ms)
+Rendered people/_p3 (2.3ms)
+Rendered people/_form (34.2ms)
+Completed in 52ms (View: 40, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:37:28) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (7.7ms)
+Rendered people/_p2 (87.2ms)
+Rendered people/_p3 (2.3ms)
+Rendered people/_form (107.3ms)
+Completed in 120ms (View: 111, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:37:40) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (79.4ms)
+Rendered people/_p2 (6.7ms)
+Rendered people/_p3 (3.5ms)
+Rendered people/_form (108.6ms)
+Completed in 123ms (View: 114, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:37:48) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (96.8ms)
+Rendered people/_p2 (17.7ms)
+Rendered people/_p3 (3.0ms)
+Rendered people/_form (132.5ms)
+Completed in 150ms (View: 143, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:38:02) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (20.9ms)
+Rendered people/_p2 (9.1ms)
+Rendered people/_p3 (3.8ms)
+Rendered people/_form (50.6ms)
+Completed in 70ms (View: 55, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:38:18) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (16.1ms)
+Rendered people/_p2 (12.1ms)
+Rendered people/_p3 (2.4ms)
+Rendered people/_form (117.5ms)
+Completed in 129ms (View: 122, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:38:25) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (12.1ms)
+Rendered people/_p2 (8.6ms)
+Rendered people/_p3 (2.6ms)
+Rendered people/_form (34.2ms)
+Completed in 47ms (View: 38, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:42:52) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (43.3ms)
+Rendered people/_p2 (91.2ms)
+Rendered people/_p3 (2.3ms)
+Rendered people/_form (146.8ms)
+Completed in 172ms (View: 162, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:43:47) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (33.5ms)
+Rendered people/_p2 (7.7ms)
+Rendered people/_p3 (3.6ms)
+Rendered people/_form (66.0ms)
+Completed in 86ms (View: 76, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:44:07) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (1297.8ms)
+Rendered people/_p2 (8.2ms)
+Rendered people/_p3 (3.0ms)
+Rendered people/_form (2263.6ms)
+Completed in 2669ms (View: 2662, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:45:24) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (36.7ms)
+Rendered people/_p2 (7.9ms)
+Rendered people/_p3 (2.9ms)
+Rendered people/_form (64.6ms)
+Completed in 87ms (View: 76, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:45:34) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (91.4ms)
+Rendered people/_p2 (5.9ms)
+Rendered people/_p3 (2.5ms)
+Rendered people/_form (106.9ms)
+Completed in 118ms (View: 111, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-04-11 12:47:52) [GET]
+  [4;36;1mPerson Load (0.7ms)[0m   [0;1mSELECT * FROM "people" LIMIT 20 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering people/index
+Rendered people/_person (3.8ms)
+Completed in 15ms (View: 8, DB: 1) | 200 OK [http://localhost/people]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:47:54) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (47.7ms)
+Rendered people/_p2 (6.3ms)
+Rendered people/_p3 (2.3ms)
+Rendered people/_form (64.0ms)
+Completed in 73ms (View: 67, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:53:49) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (43.1ms)
+Rendered people/_p2 (12.0ms)
+Rendered people/_p3 (11.4ms)
+Rendered people/_form (78.0ms)
+Completed in 184ms (View: 82, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:54:56) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (42.3ms)
+Rendered people/_p2 (5.8ms)
+Rendered people/_p3 (3.4ms)
+Rendered people/_form (64.8ms)
+Completed in 75ms (View: 68, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:55:20) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (46.3ms)
+Rendered people/_p2 (6.8ms)
+Rendered people/_p3 (3.0ms)
+Rendered people/_form (154.9ms)
+Completed in 166ms (View: 159, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:56:02) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (14.6ms)
+Rendered people/_p2 (7.6ms)
+Rendered people/_p3 (4.3ms)
+Rendered people/_form (42.8ms)
+Completed in 52ms (View: 46, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:56:32) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (117.9ms)
+Rendered people/_p2 (6.8ms)
+Rendered people/_p3 (2.8ms)
+Rendered people/_form (140.4ms)
+Completed in 151ms (View: 144, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:57:13) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (11.7ms)
+Rendered people/_p2 (10.8ms)
+Rendered people/_p3 (2.5ms)
+Rendered people/_form (42.0ms)
+Completed in 59ms (View: 50, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:57:20) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (96.4ms)
+Rendered people/_p2 (6.5ms)
+Rendered people/_p3 (2.5ms)
+Rendered people/_form (112.5ms)
+Completed in 123ms (View: 117, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:58:18) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (29.1ms)
+Rendered people/_p2 (9.7ms)
+Rendered people/_p3 (4.0ms)
+Rendered people/_form (62.4ms)
+Completed in 81ms (View: 71, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:58:29) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (129.0ms)
+Rendered people/_p2 (7.0ms)
+Rendered people/_p3 (4.1ms)
+Rendered people/_form (153.3ms)
+Completed in 165ms (View: 158, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 12:59:04) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (44.2ms)
+Rendered people/_p2 (7.7ms)
+Rendered people/_p3 (3.6ms)
+Rendered people/_form (75.5ms)
+Completed in 87ms (View: 79, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 13:09:28) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (41.5ms)
+Rendered people/_p2 (8.3ms)
+Rendered people/_p3 (3.9ms)
+Rendered people/_form (74.0ms)
+Completed in 178ms (View: 81, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 13:09:51) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (60.7ms)
+Rendered people/_p2 (5.9ms)
+Rendered people/_p3 (2.1ms)
+Rendered people/_form (79.2ms)
+Completed in 97ms (View: 86, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 13:11:03) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (32.5ms)
+Rendered people/_p2 (7.7ms)
+Rendered people/_p3 (2.7ms)
+Rendered people/_form (53.6ms)
+Completed in 69ms (View: 62, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 13:11:56) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (34.3ms)
+Rendered people/_p2 (6.3ms)
+Rendered people/_p3 (2.5ms)
+Rendered people/_form (54.9ms)
+Completed in 69ms (View: 62, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 13:12:04) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (9.4ms)
+Rendered people/_p2 (9.2ms)
+Rendered people/_p3 (2.8ms)
+Rendered people/_form (28.4ms)
+Completed in 41ms (View: 32, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 13:12:49) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (14.7ms)
+Rendered people/_p2 (9.9ms)
+Rendered people/_p3 (3.8ms)
+Rendered people/_form (45.7ms)
+Completed in 55ms (View: 49, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 13:13:23) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (43.8ms)
+Rendered people/_p2 (11.0ms)
+Rendered people/_p3 (4.4ms)
+Rendered people/_form (66.5ms)
+Completed in 82ms (View: 70, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 13:14:16) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_p1 (38.3ms)
+Rendered people/_p2 (6.4ms)
+Rendered people/_p3 (2.2ms)
+Rendered people/_form (60.6ms)
+Completed in 81ms (View: 69, DB: 0) | 200 OK [http://localhost/people/new]

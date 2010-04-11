@@ -5,7 +5,10 @@
 	%p
 	- f.inputs do
 		= f.input :age, :label => 'Age'
+		%br
 		= f.input :status, :label => 'Status', :collection => ["alive", "deceased"]
+		%br
 		= f.input :city_of_birth, :label => 'City of birth'
-		= f.submit "Submit"
-		= link_to_function "submit - javascript", "copy_form($('##{form_name}'))"
+		= f.submit "Submit", :style => "display:none;"
+		%br
+		= link_to_function "submit - javascript", "copy_form( '#{form_name}', $('#p3'))"

@@ -3,7 +3,14 @@
 = render :partial => "p3"
 :javascript
 	function form2form(formA, formB) {$(':input[name]', formA).each(function() { $('[name=' + $(this).attr('name') +']', formB).val($(this).val())})};
-	function copy_form(src) { form2form(src, $('#foo')); };
+	function copy_form(src, next) { 
+		var form = v2.Form.get(src);
+		if (form.test("validate")) {
+			form2form( $("#" + src), $('#foo'));
+			$("#" + src).hide();
+			next.show();
+		 };
+	};
 	
 %div#results
 	%h1 Output here

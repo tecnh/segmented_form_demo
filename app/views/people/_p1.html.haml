@@ -6,6 +6,6 @@
 	- f.inputs do
 		= f.input :first_name, :label => 'First name'
 		= f.input :last_name, :label => 'Last name'
-		= f.submit "Submit"
+		= f.submit "Submit", :style => "display:none;"
 		%br
-		= link_to_function "submit - javascript", "copy_form($('##{form_name}'))"
+		= link_to_function "submit - javascript", "copy_form( '#{form_name}', $('#p2'))"
