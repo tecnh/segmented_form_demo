@@ -802,3 +802,10 @@ Rendering template within layouts/application
 Rendering people/new
 Rendered people/_form (21.0ms)
 Completed in 31ms (View: 25, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-04-11 10:56:28) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Rendered people/_form (128.0ms)
+Completed in 142ms (View: 136, DB: 0) | 200 OK [http://localhost/people/new]
