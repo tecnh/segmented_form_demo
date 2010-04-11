@@ -7,4 +7,6 @@
 		-# This is the auto-generate bit
 		%br
 		= f.submit "Submit", :style => "display:none;"
+		- if !last_form.nil?
+			= link_to_function "back", "back_form( $('##{current_form}'), $('##{last_form}'))"
 		= link_to_function "submit - javascript", "copy_form( $('##{current_form}'), " + (next_form == 'last' ? "'last'" : "$('##{next_form}')") + " )"

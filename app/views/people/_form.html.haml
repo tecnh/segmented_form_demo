@@ -1,8 +1,8 @@
 - @sub_forms = ["p1", "p2", "p3"]
-
 = render :partial => "master"
+= error_message_on :person, :base
 - @sub_forms.each_with_index do |sf, idx|
-	= render :partial => sf, :locals => {:current_form => sf, :next_form => @sub_forms[idx+1].nil? ? 'last' : @sub_forms[idx+1]}
+	= render :partial => sf, :locals => {:current_form => sf, :next_form => @sub_forms[idx+1].nil? ? 'last' : @sub_forms[idx+1], :last_form => (idx-1 < 0) ? nil : @sub_forms[idx-1]}
 	= javascript_tag "$('##{sf}').hide();"
 -# This tag shows the first sub-form with errors. TODO: Skip downstream sub-forms that are not in validation error. TODO: Go straight to SUBMIT if no other sub-forms are in failure.
 = javascript_tag "if ( $('.inline-errors').length == 0 ) { $('##{@sub_forms.first}').show(); } else { arr = new Array('#{@sub_forms.join('\',\'')}'); i=f=0; do { c = $('#' + arr[i] + ' .inline-errors').length; if (c > 0) { f = arr[i]; }; i++; } while (c == 0 && i <= arr.length); if (f) { $('#' + f).show(); } else { $('##{@sub_forms.first}').show();	};	};"
@@ -11,6 +11,10 @@
 	
 :javascript
 	function form2form(formA, formB) {$(':input[name]', formA).each(function() { $('[name=' + $(this).attr('name') +']', formB).val($(this).val())})};
+	function back_form(src, back) {
+		src.hide();
+		back.show();
+	};	
 	function copy_form(src, next) {
 		var form = v2.Form.get( src.attr('id') );
 		if ( form.test("validate") ) {
