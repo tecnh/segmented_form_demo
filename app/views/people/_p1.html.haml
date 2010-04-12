@@ -1,7 +1,7 @@
 = javascript_for_validatious
-- semantic_form_for @person, :html => {:class => 'validate', :id => current_form } do |f|
+- segmented_form_for @person, :id => current_form do |f|
 	%p
 	- f.inputs do
 		= f.input :first_name, :label => 'First name'
 		= f.input :last_name, :label => 'Last name'
-		= button_strip f, current_form, last_form, next_form
+		= f.pseudo_buttons current_form, last_form, next_form

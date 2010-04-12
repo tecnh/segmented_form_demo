@@ -3,6 +3,7 @@ require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
   config.time_zone = 'UTC'
+  config.load_paths += %W( #{RAILS_ROOT}/app/builders )
   config.gem "jrails"
   config.gem "haml"
   config.gem "will_paginate"
