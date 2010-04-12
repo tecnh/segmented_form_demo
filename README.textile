@@ -1,2 +1,48 @@
-== Welcome to Segmented Forms Demo
+h1. Welcome to Segmented Forms Demo
 
+This is a very simple demo app showing how to do in Rails:
+
+* Multi-page form on a single page
+* Simultaneous front- and back-end validations
+* Front-end validations are live, using Validatious
+
+Why is this interesting?
+
+h2. Multi-page Forms on a Single Page
+
+If you want to do model & database level enforcement of validations but have a big model to fill out, what can you do? If you cut the form into several pages, when you first press submit your form will be rejected as invalid.
+
+There are wizards out there that allow for multi-page forms, but none of them integrate well with validations (especially live validations like Validatious) and all of them suffer from problems inherent with the back/forward buttons.
+
+It's much simpler to keep the whole form on one page and only show the user one bit at a time. That's what this app does.
+
+h2. Simultaneous front- and back-end validations
+
+Many validations can be done before the user presses submit. This makes for a *much* more interesting experience for two reasons: the user sees fewer validation hits at once; and they also don't have to wait for the submit to finish. This is even more important on a multi-page form as you don't want to allow the user to go forward a page when there is an error on the form, it really hacks them off.
+
+There are some validations which are by definition back-end only: you don't want to expose things like a credit card check or a user ID check to an Ajax call or they will probably get abused. In our app these checks are done on the back-end.
+
+h2. Live Validations
+
+This is really about user experience. As the user types or when they leave a field, a quick message is popped up when there is a problem.
+
+h1. Installation
+
+Disclaimer: This is still a very early alpha edition, more a proof of concept. If we have the time we'll try and turn it into a plugin or gem. Please don't complain or expect support tickets to get quick attention. Thanks in advance.
+
+h2. Dependencies
+
+Relies on the following gems:
+
+* formtastic, jrails & haml - just because we like them
+* will_paginate, mocha - just because the template generator we use likes them
+* validatious-on-rails, jquery - essential, this app cannot work without them
+* validation-reflection - required by validatious-on-rails
+
+h3. Running
+
+Once you have satisfied the dependencies, fire up your Rails server (I do this by going to the project root folder and running script/server) and then bring up your front page. You should see the standard Rails intro page. Go to http://your_app_url/people to start playing.
+
+h1. More Soon
+
+Watch this space.
