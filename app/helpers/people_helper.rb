@@ -14,9 +14,19 @@ module PeopleHelper
     o
   end
     
-  def button_strip(current_form, last_form, next_form)
-	  o = button_to_function "back", "back_form( $('##{current_form}'), $('##{last_form}'))", :style => "display:#{last_form.nil? ? 'none' : 'inline'};"
-	  o += (next_form == 'last') ? (button_to_function "finish", "copy_form( $('##{current_form}'), 'last')") : (button_to_function "next", "copy_form( $('##{current_form}'), $('##{next_form}'))")
+  def button_strip(form, current_form, last_form, next_form)
+	  if next_form == "last"
+	    button_label = "finish"
+	    button_function = "copy_form( $('##{current_form}'), 'last')"
+	  else
+	    button_label = "next"
+	    button_function = "copy_form( $('##{current_form}'), $('##{next_form}'))"
+	  end
+		
+	  o = "<br />"
+	  o += form.submit "Submit", :disabled => true, :style => 'display:none;'
+	  o += button_to_function 'back', "back_form( $('##{current_form}'), $('##{last_form}'))", :style => "display:#{last_form.nil? ? 'none' : 'inline'};"
+	  o += button_to_function button_label, button_function, :class => "default"
 	  o
 	end
 end

@@ -4,7 +4,4 @@
 	- f.inputs do
 		= f.input :first_name, :label => 'First name'
 		= f.input :last_name, :label => 'Last name'
-		-# This is the auto-generate bit
-		%br
-		= f.submit "Submit", :style => "display:none;"
-		= button_strip current_form, last_form, next_form
+		= button_strip f, current_form, last_form, next_form
