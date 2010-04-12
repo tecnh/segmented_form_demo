@@ -41,7 +41,13 @@ Relies on the following gems:
 
 h3. Running
 
-Once you have satisfied the dependencies, fire up your Rails server (I do this by going to the project root folder and running script/server) and then bring up your front page. You should see the standard Rails intro page. Go to http://your_app_url/people to start playing.
+Once you have satisfied the dependencies, fire up your Rails server (I do this by going to the project root folder and running script/server) and then bring up your front page. You should see the standard Rails intro page. Go to http://your_dev_app_url/people to start playing.
+
+h1. Next Steps
+
+* Conversion to a plugin & gem (see segmented_forms).
+* Rails 3 compatibility.
+* When returning to the form from a failed server side validation, option to skip all pages that have validated fine. Can either go straight to submit or to the last page.
 
 h1. More Soon
 

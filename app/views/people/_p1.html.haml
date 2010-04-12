@@ -7,5 +7,4 @@
 		-# This is the auto-generate bit
 		%br
 		= f.submit "Submit", :style => "display:none;"
-		= button_to_function "back", "back_form( $('##{current_form}'), $('##{last_form}'))", :style => "display:#{last_form.nil? ? 'none' : 'inline'};"
-		= button_to_function "submit", "copy_form( $('##{current_form}'), " + (next_form == 'last' ? "'last'" : "$('##{next_form}')") + " )"
+		= button_strip current_form, last_form, next_form
